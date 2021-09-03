@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 1, 2021, 6:33:26 PM
+    Author     : lenovo
+*/
+
+*{
+    margin:0px;
+    padding:0px
+}
+
+body {
+  height: 100%;
+  background-image: url('images/six.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.box{
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+ 
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin-top: 100px;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 5px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#d2{
+  padding:10px;
+}
+.info-head{
+    color:#4dff4d;
+}
+.info-bold{
+    color:#4dff4d;
+}
+
+.info-mid{
+    color:yellow;
+}
+.info-last{
+   color:yellow;
+}
+.info{
+    color:yellow;
+}
